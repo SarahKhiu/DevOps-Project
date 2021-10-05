@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: ./
-      with:
-      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+     - uses: ./
+  with:
+    GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
