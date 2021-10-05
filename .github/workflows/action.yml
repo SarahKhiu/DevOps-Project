@@ -2,6 +2,8 @@ name: 'Thank You Action'
 description: 'Say "Thank You" to new pull requests'
 author: '[Your Name]'
 
+on: pull_request
+
 inputs:
   GITHUB_TOKEN:
     description: 'GitHub token'
