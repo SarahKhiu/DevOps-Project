@@ -5,7 +5,7 @@
 <br>
 Using node and JavaScript to add a new comment, "Thank you!" to the person who creates a pull request in the repository, along with a GIF from the Tenor API to make it a little extra fun.
 
-Application code:
+**Application code:**
 name: Thank You
 on:
 pull_request:
