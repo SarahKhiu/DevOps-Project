@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colbyfayock/demo-action-pull-request.git"
+    "url": "git+https://github.com/SarahKhiu/demo-action-pull-request.git"
   },
-  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "author": "Sarah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/colbyfayock/demo-action-pull-request/issues"
+    "url": "https://github.com/SarahKhiu/demo-action-pull-request/issues"
   },
-  "homepage": "https://github.com/colbyfayock/demo-action-pull-request#readme",
+  "homepage": "https://github.com/SarahKhiu/demo-action-pull-request#readme",
   "dependencies": {},
   "devDependencies": {
     "@actions/core": "^1.6.0",
