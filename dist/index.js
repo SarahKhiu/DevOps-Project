@@ -5,6 +5,12 @@ module.exports =
 /***/ 351:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
+async function run() {
+console.log('Hello, world!');
+}
+      
+run();
+
 "use strict";
 
 var __importStar = (this && this.__importStar) || function (mod) {
