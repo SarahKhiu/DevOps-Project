@@ -1,7 +1,7 @@
 # DevOps-Project
 -	for Show and Tell
 
-**Creating a Customised GitHub Action:**
+**Create a Customised GitHub Action:**
 <br>
 Using node and JavaScript to add a new comment, "Thank you!" to the person who creates a pull request in the repository, along with a GIF from the Tenor API to make it a little extra fun.
 
