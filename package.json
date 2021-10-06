@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SarahKhiu/demo-action-pull-request.git"
+    "url": "git+https://github.com/colbyfayock/demo-action-pull-request.git"
   },
-  "author": "Sarah",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SarahKhiu/demo-action-pull-request/issues"
+    "url": "https://github.com/colbyfayock/demo-action-pull-request/issues"
   },
-  "homepage": "https://github.com/SarahKhiu/demo-action-pull-request#readme",
+  "homepage": "https://github.com/colbyfayock/demo-action-pull-request#readme",
   "dependencies": {},
   "devDependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@vercel/ncc": "^0.27.0",
     "dotenv": "^8.2.0",
