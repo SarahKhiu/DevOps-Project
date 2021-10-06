@@ -1,5 +1,6 @@
 # DevOps-Project
--	for Show and Tell
+-	"Show and Tell"
+-	Used two repositories: **DevOps-Project** (this) and **Google-Cloud-Run-Git-Hub-Actions** (https://github.com/SarahKhiu/Google-Cloud-Run-Git-Hub-Actions#:~:text=SarahKhiu,Git-Hub-Actions)
 
 **Create a Customised GitHub Action:**
 <br>
@@ -20,7 +21,7 @@ steps:
  TENOR_TOKEN: ${{secrets.TENOR_TOKEN}}
 <br>
 
-**Notes, a reminder for myself:**
+**Notes, a reminder to self:**
 - Difference between actions and workflows on GitHub:
 ***“Actions”*** are individual tasks that can be combined to create jobs and customize workflow. ***“Workflows”*** are custom ‘automated’ processes that you set up in your repository to build, test, package, release or deploy any project on GitHub.
 - Workflows: automated process, defined in yaml files stored in workflows directory. Consist of event, machine, job and steps. Many actions make up a workflow.
