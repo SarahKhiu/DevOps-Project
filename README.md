@@ -11,7 +11,7 @@ Using node and JavaScript to add a new comment, "Thank you!" to the person who c
 
 ![Screenshot (64)](https://user-images.githubusercontent.com/89820671/136189422-31f43e13-f11f-426a-a883-c67f2c3931e8.png)
 
-Source: https://www.youtube.com/watch?v=Ef0gPGUh9oo&t=780s
+Code source: https://www.youtube.com/watch?v=Ef0gPGUh9oo&t=780s
 ## Notes (a reminder to self):
 - **Difference between actions and workflows on GitHub:**
 ***“Actions”*** are individual tasks that can be combined to create jobs and customize workflow. ***“Workflows”*** are custom ‘automated’ processes that you set up in your repository to build, test, package, release or deploy any project on GitHub.
