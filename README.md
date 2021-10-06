@@ -31,7 +31,7 @@ steps:
    - *steps*: the tasks each job should run
    - *run*: the command the step should run
    
-**Elements of a CI/CD pipeline:**
+- **Elements of a CI/CD pipeline:**
 
 ![ci-cd_pipeline](https://user-images.githubusercontent.com/89820671/136138509-d0f453b7-b538-4371-bdd5-7cd5882f5550.png)
 
