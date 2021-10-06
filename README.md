@@ -1,6 +1,7 @@
 # DevOps-Project
 -	"Show and Tell"
 -	Used two repositories: **DevOps-Project** (this) and **Google-Cloud-Run-Git-Hub-Actions** (https://github.com/SarahKhiu/Google-Cloud-Run-Git-Hub-Actions#:~:text=SarahKhiu,Git-Hub-Actions)
+- [Thought Processes and Learnings are appended here]
 
 **Create a Customised GitHub Action:**
 <br>
@@ -22,10 +23,10 @@ steps:
 <br>
 
 **Notes, a reminder to self:**
-- Difference between actions and workflows on GitHub:
+- **Difference between actions and workflows on GitHub:**
 ***“Actions”*** are individual tasks that can be combined to create jobs and customize workflow. ***“Workflows”*** are custom ‘automated’ processes that you set up in your repository to build, test, package, release or deploy any project on GitHub.
-- Workflows: automated process, defined in yaml files stored in workflows directory. Consist of event, machine, job and steps. Many actions make up a workflow.
-- Basic syntax for a workflow is:
+- **Workflows:** automated process, defined in yaml files stored in workflows directory. Consist of event, machine, job and steps. Many actions make up a workflow.
+- **Basic syntax for a workflow is:**
    - *on*: the event that triggers the workflow
    - *runs-on*: the machine each job should run
    - *jobs*: the jobs that make the workflow
