@@ -1,28 +1,18 @@
 # DevOps-Project
+
 -	"Show and Tell"
 -	Used two repositories: **DevOps-Project** (this) and **Google-Cloud-Run-Git-Hub-Actions** (https://github.com/SarahKhiu/Google-Cloud-Run-Git-Hub-Actions#:~:text=SarahKhiu,Git-Hub-Actions)
-- [Thought Processes and Learnings are appended here]
+- Thought Processes and Learnings are appended in the repository
 
-**Create a Customised GitHub Action:**
-<br>
-Using node and JavaScript to add a new comment, "Thank you!" to the person who creates a pull request in the repository, along with a GIF from the Tenor API to make it a little extra fun.
+## Create a Customisd GitHub Action
+Using node and JavaScript to add a new comment, "Thank you!" to the person who creates a pull request in the repository, along with a GIF from the Tenor API to make it a little fun.
 
-**Application code in *action yml file*:**
-name: Thank You
-on:
-pull_request:
-types: [opened]
-jobs:
-thanks:
-runs-on: ubuntu-latest
-steps:
--uses: colbyfayock/thank-you-action@master
- with:
- GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
- TENOR_TOKEN: ${{secrets.TENOR_TOKEN}}
-<br>
+**Application code inside [action.yml] file:**
 
-**Notes, a reminder to self:**
+![Screenshot (64)](https://user-images.githubusercontent.com/89820671/136189422-31f43e13-f11f-426a-a883-c67f2c3931e8.png)
+
+Source: https://www.youtube.com/watch?v=Ef0gPGUh9oo&t=780s
+## Notes (a reminder to self):
 - **Difference between actions and workflows on GitHub:**
 ***“Actions”*** are individual tasks that can be combined to create jobs and customize workflow. ***“Workflows”*** are custom ‘automated’ processes that you set up in your repository to build, test, package, release or deploy any project on GitHub.
 - **Workflows:** automated process, defined in yaml files stored in workflows directory. Consist of event, machine, job and steps. Many actions make up a workflow.
