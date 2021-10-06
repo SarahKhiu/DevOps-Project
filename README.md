@@ -2,7 +2,7 @@
 
 -	"Show and Tell"
 -	Used two repositories: **DevOps-Project** (this) and **Google-Cloud-Run-Git-Hub-Actions** (https://github.com/SarahKhiu/Google-Cloud-Run-Git-Hub-Actions#:~:text=SarahKhiu,Git-Hub-Actions)
-- **Thought Processes and Learnings** are appended in the repository
+- **Thought Processes and Learnings** file is appended in the repository
 
 ## Create a Customisd GitHub Action
 Using node and JavaScript to add a new comment, "Thank you!" to the person who creates a pull request in the repository, along with a GIF from the Tenor API to make it a little fun.
