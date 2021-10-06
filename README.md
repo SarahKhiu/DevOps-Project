@@ -41,7 +41,7 @@ steps:
 <br>
 **Elements of a CI/CD pipeline:**
 <br>
-![image](https://user-images.githubusercontent.com/89820671/136135996-d09b99b1-5def-47ee-b2d7-79703712076e.png)
+![image]/assets/images/ci-cd_pipeline.jpg
 <br>
 **Build** - where the application is compiled.
 <br>
