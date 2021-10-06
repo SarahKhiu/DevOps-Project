@@ -1,6 +1,6 @@
-name: 'Thank You Action'
-description: 'Say "Thank You" to new pull requests'
-author: '[Sarah]'
+name: 'PR Thank You Action'
+description: 'Demo for tutorial'
+author: 'Colby Fayock <hello@colbyfayock.com>'
 
 inputs:
   GITHUB_TOKEN:
@@ -9,13 +9,13 @@ inputs:
   TENOR_TOKEN:
     description: 'Tenor API token'
     required: true
-
-message:
+  message:
     description: 'Message that gets sent to new pull requests'
     default: 'Thank you for submitting a pull request! We will try to review this as soon as we can.'
-searchTerm:
+  searchTerm:
     description: 'Term that gets search for the Tenor API'
     default: 'thank you'
+
 
 runs:
   using: 'node12'
